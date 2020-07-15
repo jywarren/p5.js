@@ -1,5 +1,5 @@
 tasks:
-  - init: npm install && grunt
+  - init: npm install && npm install -g grunt && grunt
     command: npm install http-server && node_modules/http-server/bin/http-server
 ports:
   - port: 8080
